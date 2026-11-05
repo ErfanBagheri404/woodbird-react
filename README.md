@@ -1,1 +1,36 @@
-![original-e5c1ee35d19437eedfdd1162aecfc178](https://github.com/user-attachments/assets/cda4b559-8ead-43c5-a6db-928cac29a3fe)
+# Woodbird - agency landing page
+
+React + Vite recreation of the Woodbird agency landing page: sticky header and a
+fullscreen video hero with oversized custom typography.
+
+## Sections
+
+- `Header` - logo, nav links, CTA.
+- `Hero` - background video, headline, scroll cue.
+
+## Run
+
+```bash
+git clone https://github.com/ErfanBagheri404/woodbird-react.git
+cd woodbird-react
+```
+
+```bash
+npm install
+npm run dev
+```
+
+`npm run build` produces `dist/`.
+
+## Stack
+
+React 18 - Vite - CSS with self-hosted fonts and a video background.
+
+## Structure
+
+| path | role |
+|---|---|
+| `src/App.jsx` | header + hero |
+| `src/components/Header.jsx` | navigation |
+| `src/components/Hero.jsx` | video hero |
+| `src/fonts/`, `src/assets/` | type and media |
